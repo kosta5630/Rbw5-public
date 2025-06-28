@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+.local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Check if Rayfield is loaded correctly
 if not Rayfield then
@@ -48,7 +48,7 @@ local Toggle = MainTab:CreateToggle({
 
     if Value then
         -- Load the script with toggle built-in
-        loadstring(game:HttpGet("https://yourdomain.com/autotimer.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kosta5630/Rbw5-public/refs/heads/main/Auto%20time%20for%20shots"))();
     end
 end
 
@@ -61,6 +61,6 @@ local Toggle = MainTab:CreateToggle({
 
     if Value then
         -- Load the script with toggle built-in
-        loadstring(game:HttpGet("https://yourdomain.com/autotimer.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kosta5630/Rbw5-public/refs/heads/main/Auto%20time%20for%20layups"))()
     end
 end
